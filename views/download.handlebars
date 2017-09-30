@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Download</h1>
+    <ul>
+    {{#each data}}
+            <li class="download-title">
+                {{title}}
+
+            </li>
+            <li class="download-description">
+                {{description}}
+
+            </li>
+            <li class="download-link">
+                <a href="${link}"> {{link}}</a>
+            </li>
+        {{/each}}
+
+    </ul>
+</div>

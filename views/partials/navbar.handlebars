@@ -1,0 +1,30 @@
+<nav class="navbar-default" id="navbar-container">
+  <div class="container-fluid container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" id="menu-navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <ul>
+          <li class="{{#if active.home}}active{{/if}}"><a href="../">Home <span class="sr-only">(current)</span></a></li>
+          <li class="{{#if active.lesson}}active{{/if}}"><a href="../lesson">Lesson</a></li>
+          <li class="{{#if active.download}}active{{/if}}"><a href="../download">Download</a></li>
+          <li class="{{#if active.about}}active{{/if}}"><a href="../about">About us</a></li>
+        </ul>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="menu-navbar">
+        <li class="{{#if active.home}}active{{/if}}"><a href="./">Home <span class="sr-only">(current)</span></a></li>
+        <li class="{{#if active.lesson}}active{{/if}}"><a href="./lesson">Lesson</a></li>
+        <li class="{{#if active.download}}active{{/if}}"><a href="./download">Download</a></li>
+        <li class="{{#if active.about}}active{{/if}}"><a href="./about">About us</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

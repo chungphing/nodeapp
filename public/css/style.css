@@ -1,0 +1,119 @@
+#header-text{
+  display: inline-block;
+  letter-spacing: 3px;
+  color: #404040;
+  width: 100%;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  height: 75px;
+}
+
+
+#navbar-container {
+  background: #3c87ac;
+}
+
+
+#menu-navbar li:hover {
+  transition: all 0.3s ease 0s;
+  background-color: #4e92b4;
+}
+
+#menu-navbar > li.active > a {
+  background-color: #62c1f0;
+}
+.wrapper {
+  padding: 10px;
+  margin: 5px;
+}
+
+
+#site-navbar-container {
+  background: black;
+  border-radius: 0;
+
+}
+
+#site-navbar > li:hover {
+  background: #2f2f2f;
+}
+
+#menu-navbar > li > a {
+  text-shadow: 0 0 5px #4f4f4f;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.2;
+  color: white;
+}
+#site-navbar > li > a {
+  font-size: 11px;
+  padding-top: 5px !important; padding-bottom: 5px !important;
+  color: #cacaca;
+}
+#site-navbar > li.active-site > a{
+  color: white;
+
+}
+#site-navbar-container {min-height:32px !important}
+
+#navbar-container{
+  margin: 25px 0;
+}
+
+
+
+/*Styling Download page*/
+
+
+.download-wrapper{
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+
+}
+.download-title{
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.download-description{
+  list-style: none;
+  margin-left: 25px;
+  padding: 5px;
+
+}
+
+.download-link{
+
+  list-style: none;
+  margin-left: 25px;
+  padding: 5px;
+
+
+}
+
+
+
+
+/*Error 404 page*/
+
+
+.error-wrapper{
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+}
+
+#error-warning{
+  color: rgb(29, 29, 29);
+  font-size: 3em;
+  padding: 10px;
+}
+#error-text{
+  font-size: 16px;
+  color: rgb(84, 84, 84)
+}
